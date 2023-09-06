@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL ](https://your-solution-url.com)
-- Live Site URL: [ live site URL ](https://your-live-site-url.com)
+- Solution URL: [solution URL ](https://github.com/madhukar-30/Newsletter_sign-up_page.git)
+- Live Site URL: [ live site URL ](https://madhukar-30.github.io/Newsletter_sign-up_page/)
 
 ## My process
 
