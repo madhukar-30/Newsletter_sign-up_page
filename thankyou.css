@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+--Tomato:hsl(4, 100%, 67%);
+--Dark-Slate-Grey:hsl(234, 29%, 20%);
+--Charcoal-Grey:hsl(235, 18%, 26%);
+--Grey:hsl(231, 7%, 60%);
+--White:hsl(0, 0%, 100%);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:var(--Dark-Slate-Grey);
+}
+main{
+    background-color: var(--White);
+    border-radius: 1rem;
+}
+
+.thankyou{
+   max-width:500px;
+   padding-left:3.88rem;
+   height:73vh;
+   animation: fadeIn 1s ease-in-out;
+ border-radius: 5rem;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.thankyou .success-img{
+    margin-top:2.9rem;
+    margin-bottom: 1.9rem;
+} .thankyou h1{
+    font-size: 3.5rem;
+    /* margin-bottom:2rem; */
+    line-height: 3.79rem;
+    margin-bottom:1.5rem;
+}
+.thankyou p{
+    padding-right:4rem;
+    margin-bottom:2.7rem;
+    line-height: 1.3rem;
+    color:var(--Charcoal-Grey);
+ 
+}
+.input-container{
+    display: grid;
+    grid-template-columns: 0.85fr;
+}
+.input-container input{
+    padding:1.3rem 0;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#emailPlace{
+    font-weight: bold;
+
+}
+input{
+    background-color: var(--Dark-Slate-Grey);
+    color:var(--White);
+    border:none;
+    border-radius: 0.5rem;
+}
+input:hover{
+    background-color: var(--Tomato);
+}
+@media screen and (max-width:550px) {
+    body{
+        background-color: var(--white);
+    }
+     .thankyou{
+      padding-top:5rem;
+        min-height: 100vh;
+        padding-left:1rem;
+     }
+     .thankyou h1{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+     }
+     .thankyou p{
+        margin-bottom: 10rem;
+       padding-right: 1rem;
+       text-align: left;
+     }
+     
+}
